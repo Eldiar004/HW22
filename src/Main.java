@@ -8,7 +8,7 @@ public class Main {
         ArrayList<Integer> jupSandar = new ArrayList<>();
         ArrayList<Integer> takSandar = new ArrayList<>();
         for (int i = 0; i <= 50; i++) {
-            int r = random.nextInt(0,51);
+            int r = random.nextInt(0,101);
             randomArr.add(r);
             if (r%2==0) {
                 jupSandar.add(r);
